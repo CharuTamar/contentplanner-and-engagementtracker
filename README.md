@@ -32,10 +32,15 @@ A full-stack web application to create, manage, and track content performance ac
 ## 📸 Screenshots
 
 >![image](https://github.com/user-attachments/assets/53fd85d5-552c-4724-b940-4b0eebe82601)
+
 >![image](https://github.com/user-attachments/assets/e1558e9b-ec0a-4cf9-9ce1-4d4d68ebaef5)
+
 >![image](https://github.com/user-attachments/assets/9213e61d-fcc1-4508-80a6-31676e51e9f8)
+
 >![image](https://github.com/user-attachments/assets/2da33940-5514-4469-8e0b-c96ebab9c1a2)
+
 >![image](https://github.com/user-attachments/assets/23fe6c11-87e3-4a70-ab7a-d7afe1c43889)
+
 >![image](https://github.com/user-attachments/assets/9d0a21ce-b558-4d69-98a1-9bca83dbf4ce)
 
 
@@ -81,6 +86,8 @@ Pull requests are welcome. For major changes, please open an issue first.
 This project is licensed under the MIT License.
 
 ## 👩‍💻 Author
--Charu
--React | Node.js | MongoDB | Full Stack Enthusiast
--[LINKEDIN](https://www.linkedin.com/in/charu-tamar/)
+Charu
+
+React | Node.js | MongoDB | Full Stack Enthusiast
+
+[LINKEDIN](https://www.linkedin.com/in/charu-tamar/)
