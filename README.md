@@ -47,57 +47,44 @@ A full-stack web application to create, manage, and track content performance ac
 ```bash
 git clone https://github.com/your-username/contentplanner-and-engagementtracker.git
 cd contentplanner-and-engagementtracker
-2. Setup Backend
-bash
-Copy
-Edit
+```
+### 2. Setup Backend
+```
 cd backend
 npm install
+```
 # Add your MongoDB URI to .env file as MONGO_URI
-<pre lang="markdown"> ```env MONGO_URI=your_mongo_db_connection_string ``` </pre>
+```env 
+MONGO_URI=your_mongo_db_connection_string
 npm start
-3. Setup Frontend
-bash
-Copy
-Edit
+```
+### 3. Setup Frontend
+```
 cd ../frontend
 npm install
 npm run dev
+```
 🌐 Environment Variables
 Create a .env file in backend/ with:
-
-ini
-Copy
-Edit
+```
 MONGO_URI=your_mongo_db_connection_string
-In frontend/, create:
+```
+### API Endpoints
+| Method  | Endpoint | Description |
+| ------------- |:-----------------------:|:----------------------:|
+| GET           | /api/content            | Fetch all content      |
+| POST          | /api/content            | Create new content     |
+| PUT           | /api/content/:id        | Update content         |
+| DELETE        | /api/content/:id        | Delete content         |
+| PATCH         | /api/content/:id/engage | Update engagement count|
 
-ini
-Copy
-Edit
-VITE_API_BASE_URL=http://localhost:5000
-📦 API Endpoints
-GET /api/content
-
-POST /api/content
-
-PATCH /api/content/:id/engage
-
-DELETE /api/content/:id
-
-GET /api/comments/:contentId
-
-POST /api/comments
-
-DELETE /api/comments/:id
-
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
-👩‍💻 Author
+## 👩‍💻 Author
 Charu
-React | Node.js | Full Stack Enthusiast
-LinkedIn | GitHub
+React | Node.js | MongoDB | Full Stack Enthusiast
+[LINKEDIN](https://www.linkedin.com/in/charu-tamar/)
