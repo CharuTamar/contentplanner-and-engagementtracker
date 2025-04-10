@@ -53,7 +53,7 @@ cd contentplanner-and-engagementtracker
 cd backend
 npm install
 ```
-# Add your MongoDB URI to .env file as MONGO_URI
+Add your MongoDB URI to .env file as MONGO_URI
 ```env 
 MONGO_URI=your_mongo_db_connection_string
 npm start
@@ -64,11 +64,7 @@ cd ../frontend
 npm install
 npm run dev
 ```
-🌐 Environment Variables
-Create a .env file in backend/ with:
-```
-MONGO_URI=your_mongo_db_connection_string
-```
+
 ### API Endpoints
 | Method  | Endpoint | Description |
 | ------------- |:-----------------------:|:----------------------:|
@@ -85,6 +81,6 @@ Pull requests are welcome. For major changes, please open an issue first.
 This project is licensed under the MIT License.
 
 ## 👩‍💻 Author
-Charu
-React | Node.js | MongoDB | Full Stack Enthusiast
-[LINKEDIN](https://www.linkedin.com/in/charu-tamar/)
+-Charu
+-React | Node.js | MongoDB | Full Stack Enthusiast
+-[LINKEDIN](https://www.linkedin.com/in/charu-tamar/)
